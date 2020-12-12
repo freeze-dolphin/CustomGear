@@ -1,0 +1,142 @@
+research: 
+  
+  research-id-start: 3300
+  sword-level: 3
+  armor-level: 5
+
+translations: 
+  
+  format: <material><type>
+  
+  type: 
+    sword: 剑
+    helmet: 头盔
+    chestplate: 胸甲
+    leggings: 护腿
+    boots: 靴子
+  
+  material: 
+    copper: 铜
+    tin: 锡
+    silver: 银
+    aluminum: 铝
+    lead: 铅
+    zinc: 锌
+    magnesium: 镁
+    steel: 钢
+    bronze: 青铜
+    duralumin: 铝合金
+    billon: 金银合金
+    brass: 黄铜
+    aluminum-brass: 铝黄铜
+    aluminum-bronze: 铝青铜
+    corinthian-bronze: 科林斯青铜
+    solder: 焊锡
+    damascus-steel: 大马士革钢
+    hardened-metal: 硬化合金
+    reinforced: 强化合金
+    ferrosilicon: 硅铁
+    gilded-iron: 镀金
+    nickel: 镍
+    cobalt: 钴
+
+materials: 
+  
+  sword: 
+    copper: IRON_SWORD
+    tin: IRON_SWORD
+    silver: IRON_SWORD
+    aluminum: IRON_SWORD
+    lead: IRON_SWORD
+    zinc: IRON_SWORD
+    magnesium: IRON_SWORD
+    steel: IRON_SWORD
+    bronze: IRON_SWORD
+    duralumin: IRON_SWORD
+    billon: IRON_SWORD
+    brass: IRON_SWORD
+    aluminum-brass: IRON_SWORD
+    aluminum-bronze: IRON_SWORD
+    corinthian-bronze: IRON_SWORD
+    solder: IRON_SWORD
+    damascus-steel: IRON_SWORD
+    hardened-metal: IRON_SWORD
+    reinforced: IRON_SWORD
+    ferrosilicon: IRON_SWORD
+    gilded-iron: GOLD_SWORD
+    nickel: IRON_SWORD
+    cobalt: IRON_SWORD
+
+  armor: 
+    copper: LEATHER
+    tin: IRON
+    silver: IRON
+    aluminum: IRON
+    lead: IRON
+    zinc: IRON
+    magnesium: IRON
+    steel: IRON
+    cobalt: IRON
+
+ingredients: 
+  copper: COPPER_INGOT
+  tin: TIN_INGOT
+  silver: SILVER_INGOT
+  aluminum: ALUMINUM_INGOT
+  lead: LEAD_INGOT
+  zinc: ZINC_INGOT
+  magnesium: MAGNESIUM_INGOT
+  steel: STEEL_INGOT
+  bronze: BRONZE_INGOT
+  duralumin: DURALUMIN_INGOT
+  billon: BILLON_INGOT
+  brass: BRASS_INGOT
+  aluminum-brass: ALUMINUM_BRASS_INGOT
+  aluminum-bronze: ALUMINUM_BRONZE_INGOT
+  corinthian-bronze: CORINTHIAN_BRONZE_INGOT
+  solder: SOLDER_INGOT
+  damascus-steel: DAMASCUS_STEEL_INGOT
+  hardened-metal: HARDENED_METAL_INGOT
+  reinforced: REINFORCED_ALLOY_INGOT
+  ferrosilicon: FERROSILICON
+  gilded-iron: GILDED_IRON
+  nickel: NICKEL_INGOT
+  cobalt: COBALT_INGOT
+
+enchantments: 
+  
+  sword: 
+    copper: "DAMAGE_UNDEAD-2"
+    tin: "DAMAGE_ALL-1"
+    silver: "DAMAGE_ALL-2"
+    aluminum: "DAMAGE_ARTHROPODS-3"
+    lead: "DAMAGE_ALL-3 DURABILITY-8"
+    zinc: "DAMAGE_ALL-2"
+    magnesium: "DAMAGE_ALL-2 DURABILITY-5"
+    steel: "DAMAGE_ALL-5 DURABILITY-6"
+    bronze: "DAMAGE_ALL-3 DURABILITY-6"
+    duralumin: "DAMAGE_ALL-3 DURABILITY-6"
+    billon: "DAMAGE_ALL-4 DURABILITY-5"
+    brass: "DAMAGE_UNDEAD-4 DURABILITY-6"
+    aluminum-brass: "DAMAGE_ARTHROPODS-4 DURABILITY-4"
+    aluminum-bronze: "DAMAGE_ARTHROPODS-4 DURABILITY-5"
+    corinthian-bronze: "DAMAGE_ALL-5 DURABILITY-5"
+    solder: "DAMAGE_ALL-4 DURABILITY-6"
+    damascus-steel: "DAMAGE_ALL-6 DURABILITY-7"
+    hardened-metal: "DAMAGE_ALL-7 DURABILITY-10"
+    reinforced: "DAMAGE_ALL-8 DURABILITY-8"
+    ferrosilicon: "DAMAGE_UNDEAD-8 DURABILITY-4"
+    gilded-iron: "DAMAGE_ARTHROPODS-8 DURABILITY-10"
+    nickel: "DAMAGE_ALL-6 DURABILITY-5"
+    cobalt: "DAMAGE_ALL-7 DURABILITY-7"
+    
+  armor: 
+    copper: "PROTECTION_EXPLOSIONS-2"
+    tin: "PROTECTION_EXPLOSIONS-3"
+    silver: "PROTECTION_ENVIRONMENTAL-2"
+    aluminum: "PROTECTION_EXPLOSIONS-2 DURABILITY-2"
+    zinc: "PROTECTION_ENVIRONMENTAL-3"
+    lead: "PROTECTION_ENVIRONMENTAL-3 DURABILITY-8"
+    magnesium: "PROTECTION_ENVIRONMENTAL-2 DURABILITY-5"
+    steel: "PROTECTION_ENVIRONMENTAL-4 DURABILITY-3"
+    cobalt: "PROTECTION_ENVIRONMENTAL-7 DURABILITY-7"
