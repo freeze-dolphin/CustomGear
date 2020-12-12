@@ -1,0 +1,6 @@
+name: CustomGear
+author: Freeze_Dolphin
+main: io.github.freeze_dolphin.custom_gear.CustomGear
+version: ${project.version}
+
+depend: [Slimefun, CS-CoreLib]
