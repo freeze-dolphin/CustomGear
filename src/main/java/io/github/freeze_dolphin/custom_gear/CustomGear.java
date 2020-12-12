@@ -30,9 +30,7 @@ public class CustomGear extends JavaPlugin {
 	public void onEnable() {
 
 		File cfgf = new File(this.getDataFolder().getPath() + File.separator + "config.yml");
-		if (!cfgf.exists()) {
-			this.saveDefaultConfig();
-		}
+		if (!cfgf.exists()) { this.saveDefaultConfig(); }
 		cfg = this.getConfig();
 
 		id = cfg.getInt("research.research-id-start");
