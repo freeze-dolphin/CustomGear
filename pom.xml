@@ -61,12 +61,6 @@
 
 	<build>
 		<sourceDirectory>${project.basedir}/src</sourceDirectory>
-		<testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
-		<testResources>
-			<testResource>
-				<directory>${project.basedir}/src/test/resources</directory>
-			</testResource>
-		</testResources>
 		<finalName>${project.name} v${project.version}</finalName>
 		<resources>
 			<resource>
